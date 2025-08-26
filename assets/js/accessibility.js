@@ -36,7 +36,7 @@
     const toolbar = document.createElement('div');
     toolbar.id = 'accessibility-toolbar';
     toolbar.innerHTML = `
-      <button id="acc-menu-toggle">תפריט נגישות</button>
+      <button id="acc-menu-toggle" aria-label="תפריט נגישות"><span class="acc-icon" aria-hidden="true">&#x267F;</span></button>
       <div id="acc-menu">
         <div class="acc-section">
           <span>גודל טקסט</span>
