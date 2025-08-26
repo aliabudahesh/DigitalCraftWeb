@@ -11,6 +11,9 @@
   padding: 6px 8px;
   cursor: pointer;
 }
+#acc-menu-toggle {
+  font-size: 24px;
+}
 #acc-menu {
   display: none;
   background: #fff;
