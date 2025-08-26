@@ -1,0 +1,74 @@
+#accessibility-toolbar {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 10000;
+  direction: rtl;
+  font-family: sans-serif;
+}
+#accessibility-toolbar button {
+  margin: 2px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+#acc-menu {
+  display: none;
+  background: #fff;
+  border: 1px solid #000;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: right;
+}
+#acc-menu.show {
+  display: block;
+}
+#acc-menu .acc-section {
+  margin-bottom: 8px;
+}
+#acc-menu .acc-section span {
+  display: block;
+  margin-bottom: 4px;
+}
+#acc-menu .acc-font-btn {
+  font-size: 16px;
+}
+#acc-menu .acc-font-btn[data-size="2"] {
+  font-size: 18px;
+}
+#acc-menu .acc-font-btn[data-size="3"] {
+  font-size: 20px;
+}
+#acc-menu .acc-font-btn[data-size="4"] {
+  font-size: 22px;
+}
+
+body.fs-1 { font-size: 100%; }
+body.fs-2 { font-size: 110%; }
+body.fs-3 { font-size: 120%; }
+body.fs-4 { font-size: 130%; }
+
+body.dark-contrast {
+  background: #000 !important;
+  color: #fff !important;
+}
+body.dark-contrast a { color: #0ff !important; }
+
+body.light-contrast {
+  background: #fff !important;
+  color: #000 !important;
+}
+body.light-contrast a { color: #00f !important; }
+
+body.color-blind {
+  filter: grayscale(100%);
+}
+
+body.highlight-links a {
+  background: yellow !important;
+  text-decoration: underline !important;
+  color: #000 !important;
+}
+
+body.readable-font {
+  font-family: "Arial", sans-serif !important;
+}
